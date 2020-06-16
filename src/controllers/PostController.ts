@@ -1,7 +1,7 @@
 import { RestController, Get, Post } from "../core"
 import { Request, Response } from "express"
 
-@RestController("/users")
+@RestController("/posts")
 class UserController {
   
   @Get("/:id")
