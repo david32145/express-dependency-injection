@@ -1,7 +1,5 @@
 import "reflect-metadata"
-import express from "express"
-
-const app = express()
+import app from "./app"
 
 const PORT = process.env.PORT || 3333
 
