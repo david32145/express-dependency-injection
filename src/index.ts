@@ -1,1 +1,1 @@
-console.log('here')
+import "reflect-metadata"
